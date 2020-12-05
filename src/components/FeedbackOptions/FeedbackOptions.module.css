@@ -1,0 +1,20 @@
+.button {
+    margin-right: 5px;
+    padding: 10px 40px;
+    cursor: pointer;
+    outline: none;
+
+    font-family: inherit;
+    font-size: inherit;
+
+    border: none;
+    border-radius: 5px;
+
+    transition: transform 250ms linear;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #b7d4d3;
+    box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
+}
